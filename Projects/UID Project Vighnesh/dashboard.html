@@ -1,0 +1,355 @@
+
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Managing Dashboard</title>
+    <link rel="stylesheet" href="dashboardcss.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+</head>
+<body>
+
+        <div class="right">
+            
+
+
+            <div class="top">
+
+                <div class="searchbox">
+                    <h2>Dashboard</h2>
+                    <div class="inputbx">
+                        <span class="material-symbols-outlined searchOpen">
+                            search
+                        </span>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                </div>
+                <div class="user">
+                    <span class="material-symbols-outlined ">
+                        notifications
+                    </span>
+                    <div class="userimg">
+                        <img src="admin.jpg" alt="img"> 
+                    </div>
+                    <h2 class="name">VASV<br><span>Admin</span></h2>
+                    <div class="arrow">
+                        <span class="material-symbols-outlined ">
+                            expand_more
+                        </span>
+                    </div>
+                    <div class="toggle">
+                        <span class="material-symbols-outlined ">
+                            menu
+                        </span>
+                        <span class="material-symbols-outlined ">
+                            close
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class='project-tasks'>
+                <div class='project-column'>
+                    <div class='project-column-heading'>
+                        <h2 class='project-column-heading__title'>In Progress</h2>
+                    </div>
+
+                    <div class='task' draggable='true'>
+                        <div class='task__tags'><span class='task__tag task__tag--copyright'>Website management</span>
+                        </div>
+                            <p>Controlling the ad and ad revenue</p>
+                            <div class='task__stats'>
+                                <span><time datetime="2021-11-24T20:00:00">12 Jan 24</time></span>
+                                
+                            </div>
+                    </div>
+                    <div class='task' draggable='true'>
+                        <div class='task__tags'><span class='task__tag task__tag--design'>UI Design</span>
+                        </div>
+                            <p>Front End Development for DBMS-US</p>
+                            <div class='task__stats'>
+                                <span><time datetime="2021-11-24T20:00:00">13 Nov 24</time></span>
+                                
+                            </div>
+                    </div>
+                    <div class='task' draggable='true'>
+                        <div class='task__tags'><span class='task__tag task__tag--illustration'>Testers</span>
+                        </div>
+                            <p>Bug finding team</p>
+                            <div class='task__stats'>
+                                <span><time datetime="2021-11-24T20:00:00">24 June 24</time></span>
+                                
+                            </div>
+                    </div>
+                </div>
+
+                <div class='project-column'>
+                    <div class='project-column-heading'>
+                        <h2 class='project-column-heading__title'>Completed</h2>
+                    </div>
+                    
+                    <div class='task' draggable='true'>
+                        <div class='task__tags'><span class='task__tag task__tag--copyright'>Character Design</span>
+                        </div>
+                            <p class="name">New character making for new game</p>
+                            <div class='task__stats'>
+                                <span><time datetime="2021-11-24T20:00:00">Nov 24</time></span>
+                                
+                            </div>
+                    </div>
+                    <div class='task' draggable='true'>
+                        <div class='task__tags'><span class='task__tag task__tag--design'>Marketing</span>
+                        </div>
+                            <p>Revenue and Promotion</p>
+                            <div class='task__stats'>
+                                <span><time datetime="2021-11-24T20:00:00">Nov 24</time></span>
+                                
+                            </div>
+                    </div>
+                    <div class='task' draggable='true'>
+                        <div class='task__tags'><span class='task__tag task__tag--illustration'>Finance</span>
+                        </div>
+                            <p>profit and loss management</p>
+                            <div class='task__stats'>
+                                <span><time datetime="2021-11-24T20:00:00">Nov 24</time></span>
+                                
+                            </div>
+                    </div>
+                </div>
+
+                <div class='project-column'>
+                    <div class='project-column-heading'>
+                        <h2 class='project-column-heading__title'>Marked for Review</h2>
+                    </div>
+                    
+                    <div class='task' draggable='true'>
+                        <div class='task__tags'><span class='task__tag task__tag--copyright'>Planners</span>
+                        </div>
+                            <p>Scheduling and planning</p>
+                            <div class='task__stats'>
+                                <span><time datetime="2021-11-24T20:00:00">12 Feb 24</time></span>
+                                
+                            </div>
+                    </div>
+                    <div class='task' draggable='true'>
+                        <div class='task__tags'><span class='task__tag task__tag--design'>Report</span>
+                        </div>
+                            <p>Summary and Assessment</p>
+                            <div class='task__stats'>
+                                <span><time datetime="2021-11-24T20:00:00">13 May 24</time></span>
+                                
+                            </div>
+                    </div>
+                    <div class='task' draggable='true'>
+                        <div class='task__tags'><span class='task__tag task__tag--illustration'>Hardware</span>
+                        </div>
+                            <p>Hardware equipment maintenances</p>
+                            <div class='task__stats'>
+                                <span><time datetime="2021-11-24T20:00:00">24 Dec 24</time></span>
+                                
+                            </div>
+                            
+                    </div>
+                    
+                    
+                </div>
+                
+                <div id="container-wrapper"> <!--defualt boxes-->
+                    
+
+                    <div class="box-container">
+                        <h2 class="team">Team and Members</h2>
+                        <div class="box" style="background:#a1ffce;"> 
+                            <p class="writings">Task Name: Desiger</p>
+                            <p class="writings">Due Date: 12-3-24:12:4:24</p>
+                            <p class="writings">Active Members: Vicky Adi, Lol</p>
+                        </div>
+                        <div class="box" style="background:#faffd1;"> 
+                            <p class="writings">Task Name: Planner</p>
+                            <p class="writings">Due Date: 12:3:24-13:4:24</p>
+                            <p class="writings">Active Members: idk,idk2,idk3</p>
+                        </div>
+                    </div>
+                </div>
+                    <div id="container-wrapper">
+                        <div class="box-container">
+                            <!--boxes will be appended here -->
+                        </div>
+                    </div>
+                    
+                <button onclick="createBox()" class="button" type="button">
+                    <span class="button__icon"><svg class="svg" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><line x1="12" x2="12" y1="5" y2="19"></line><line x1="5" x2="19" y1="12" y2="12"></line></svg></span>
+                  </button>
+                  <script src="script.js"></script>
+
+            </div>
+<!--Callender-->
+
+
+
+    <div class="wrapper">
+      <header>
+        <p class="current-date"></p>
+        <div class="icons">
+          <span id="prev" class="material-symbols-rounded">chevron_left</span>
+          <span id="next" class="material-symbols-rounded">chevron_right</span>
+        </div>
+      </header>
+      <div class="calendar">
+        <ul class="weeks">
+          <li>Sun</li>
+          <li>Mon</li>
+          <li>Tue</li>
+          <li>Wed</li>
+          <li>Thu</li>
+          <li>Fri</li>
+          <li>Sat</li>
+        </ul>
+        <ul class="days"></ul>
+      </div>
+    </div>
+    <script>
+      const daysTag = document.querySelector(".days"),
+currentDate = document.querySelector(".current-date"),
+prevNextIcon = document.querySelectorAll(".icons span");
+
+// getting new date, current year and month
+let date = new Date(),
+currYear = date.getFullYear(),
+currMonth = date.getMonth();
+
+// storing full name of all months in array
+const months = ["January", "February", "March", "April", "May", "June", "July",
+              "August", "September", "October", "November", "December"];
+
+const renderCalendar = () => {
+    let firstDayofMonth = new Date(currYear, currMonth, 1).getDay(), // getting first day of month
+    lastDateofMonth = new Date(currYear, currMonth + 1, 0).getDate(), // getting last date of month
+    lastDayofMonth = new Date(currYear, currMonth, lastDateofMonth).getDay(), // getting last day of month
+    lastDateofLastMonth = new Date(currYear, currMonth, 0).getDate(); // getting last date of previous month
+    let liTag = "";
+
+    for (let i = firstDayofMonth; i > 0; i--) { // creating li of previous month last days
+        liTag += `<li class="inactive">${lastDateofLastMonth - i + 1}</li>`;
+    }
+
+    for (let i = 1; i <= lastDateofMonth; i++) { // creating li of all days of current month
+        // adding active class to li if the current day, month, and year matched
+        let isToday = i === date.getDate() && currMonth === new Date().getMonth() 
+                     && currYear === new Date().getFullYear() ? "active" : "";
+        liTag += `<li class="${isToday}">${i}</li>`;
+    }
+
+    for (let i = lastDayofMonth; i < 6; i++) { // creating li of next month first days
+        liTag += `<li class="inactive">${i - lastDayofMonth + 1}</li>`
+    }
+    currentDate.innerText = `${months[currMonth]} ${currYear}`; // passing current mon and yr as currentDate text
+    daysTag.innerHTML = liTag;
+}
+renderCalendar();
+
+prevNextIcon.forEach(icon => { // getting prev and next icons
+    icon.addEventListener("click", () => { // adding click event on both icons
+        // if clicked icon is previous icon then decrement current month by 1 else increment it by 1
+        currMonth = icon.id === "prev" ? currMonth - 1 : currMonth + 1;
+
+        if(currMonth < 0 || currMonth > 11) { // if current month is less than 0 or greater than 11
+            // creating a new date of current year & month and pass it as date value
+            date = new Date(currYear, currMonth, new Date().getDate());
+            currYear = date.getFullYear(); // updating current year with new date year
+            currMonth = date.getMonth(); // updating current month with new date month
+        } else {
+            date = new Date(); // pass the current date as date value
+        }
+        renderCalendar(); // calling renderCalendar function
+    });
+});
+    </script>
+
+<!--DRAG AND DROP-->
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+
+  var dragSrcEl = null;
+  
+  function handleDragStart(e) {
+    this.style.opacity = '0.1';
+    this.style.border = '3px dashed #c4cad3';
+    
+    dragSrcEl = this;
+
+    e.dataTransfer.effectAllowed = 'move';
+    e.dataTransfer.setData('text/html', this.innerHTML);
+  }
+
+  function handleDragOver(e) {
+    if (e.preventDefault) {
+      e.preventDefault();
+    }
+
+    e.dataTransfer.dropEffect = 'move';
+    
+    return false;
+  }
+
+  function handleDragEnter(e) {
+    this.classList.add('task-hover');
+  }
+
+  function handleDragLeave(e) {
+    this.classList.remove('task-hover');
+  }
+
+  function handleDrop(e) {
+    if (e.stopPropagation) {
+      e.stopPropagation(); // stops the browser from redirecting.
+    }
+    
+    if (dragSrcEl != this) {
+      dragSrcEl.innerHTML = this.innerHTML;
+      this.innerHTML = e.dataTransfer.getData('text/html');
+    }
+    
+    return false;
+  }
+
+  function handleDragEnd(e) {
+    this.style.opacity = '1';
+    this.style.border = 0;
+    
+    items.forEach(function (item) {
+      item.classList.remove('task-hover');
+    });
+  }
+  
+  
+  let items = document.querySelectorAll('.task'); 
+  items.forEach(function(item) {
+    item.addEventListener('dragstart', handleDragStart, false);
+    item.addEventListener('dragenter', handleDragEnter, false);
+    item.addEventListener('dragover', handleDragOver, false);
+    item.addEventListener('dragleave', handleDragLeave, false);
+    item.addEventListener('drop', handleDrop, false);
+    item.addEventListener('dragend', handleDragEnd, false);
+  });
+});
+    </script>
+<footer>
+    <p>&copy Task Management System 2024</p>
+</footer>
+    
+
+
+
+
+</body>
+</html>
