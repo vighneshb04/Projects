@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Page | Task Management</title>
+  <link rel="stylesheet" href="style1.css">
+  
+</head>
+<body>
+  <div class="wrapper">
+  <form id="signup-form">
+    <h1>Sign Up</h1>
+    
+
+    <div class="input-box">
+    <input type="text" id="name" name="name" placeholder="Name" required>
+    <i class='bx bxs-lock-alt'></i>
+    </div>
+
+    
+
+    <div class="input-box">
+    <input type="text" id="username" name="username" placeholder="Username" required>
+    <i class='bx bxs-lock-alt'></i>
+    </div>
+
+    
+    <div class="input-box">
+    <input type="password" id="password" name="password" placeholder="Password" required>
+    <i class='bx bxs-lock-alt'></i>
+    </div>
+    
+    
+    <div class="input-box">
+    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+    <i class="bx bxs-lock-alt"></i>
+    </div>
+    <input type="button" value="Sign Up" id="signup-button" class="btn">
+  </form>
+</div>
+<script>
+  document.getElementById("signup-button").addEventListener("click", function(event) {
+      // Prevent default form submission behavior
+      event.preventDefault();
+  
+      // Get values from the form
+      var name = document.getElementById("name").value;
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+      var confirmPassword = document.getElementById("confirm-password").value;
+  
+      // Check if any field is empty
+      if (name === "" || username === "" || password === "" || confirmPassword === "") {
+          alert('Please fill all details');
+      } else if (password !== confirmPassword) { // Check if password and confirm password match
+          alert("Password and confirm password do not match");
+      } else {
+          alert("Successfully Signed Up");
+          // Redirect the user to the login page
+          window.location.href = "loginn.html";
+      }
+  });
+  </script>
+
+    
+  </div>
+</body>
+
+</html>
