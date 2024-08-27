@@ -1,0 +1,83 @@
+#include <stdio.h>
+int main() {
+    printf("hello \n");
+    printf("hello \n");
+    printf("hello \n");
+
+
+    int age=12;
+    float ag=1.2;
+    char nam='*';
+
+    printf("age is %d",age);
+    printf("float age is %f",ag);
+    printf("name is %c",nam);
+    
+    int a, b;
+    printf("enter a");
+    scanf("%d",&a);
+    printf("enter b");
+    scanf("%d",&b);
+    int sum=a+b;
+    printf("sum is : %d",sum);
+    
+
+
+    char h[]="name";
+    printf("%s",h);
+    return 0;
+}
+#include <stdio.h>
+int main(){
+    int d;
+    printf("Enter a number :\n");
+    scanf("%d",&d);
+    int a=d%2;
+    if (a==0){
+        printf("yes");
+    }
+    else{
+        printf("no");
+    }    
+    d==0 ?printf("Yes its :%d",d):printf("Its not :%d",d); //Terary
+
+  return 0;    
+}
+#include <stdio.h>
+int main(){
+    int a , b;
+    printf("Enter a number :\n");
+    scanf("%d",&a);
+    printf("Enter 2nd number :\n");
+    scanf("%d",&b);
+
+    printf("Enter 1-4 or all: \n");
+    int cas;
+    scanf("%d",&cas);
+    switch (cas)
+    {
+    case 1:
+        printf("Sum is :%d",a+b);
+        break;
+    case 2:
+        printf("Diff is :%d",a-b);
+        break;    
+    case 3:
+        printf("Product is :%d",a*b);
+        break;
+    case 4:
+        printf("Quotient is :%d",a/b);
+        break;
+    
+    default:
+    printf("All Solutions \n");
+        printf("Sum is :%d \n",a+b);
+        printf("Diff is :%d \n",a-b);
+        printf("Product is :%d\n",a*b);
+        printf("Quotient is :%d\n",a/b);
+    }
+
+
+
+    return 0;
+}
