@@ -1,6 +1,6 @@
 # Figma Design Prototypes
 
-This repository contains links to Figma prototypes for various portals and pages of an ERP system. Each link corresponds to a specific section of the project.
+This folder contains links to Figma prototypes for various portals and pages of an ERP system. Each link corresponds to a specific section of the project.
 
 ## Figma Links
 
